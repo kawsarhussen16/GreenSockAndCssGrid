@@ -1,25 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import Grid1 from './components/grid1.js';
+import Grid2 from './components/grid2.js';
+import Grid3 from './components/grid3.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Grid1 />
+      <Grid2 />
+      <Grid3 />
     </div>
+
   );
 }
 
